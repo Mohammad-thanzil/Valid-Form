@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(/bg/istockphoto-1409540606-612x612.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+}
+
+nav img {
+  height: 70px;
+  position: absolute;
+  top: 10px;
+  left: 5px;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  background-color: #ffffffbd;
+  position: absolute;
+  top: 0;
+  padding-left: 15%;
+}
+
+li {
+  list-style: none;
+  text-decoration: none;
+  margin: 25px 20px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#space {
+  width: 10%;
+  height: 40px;
+  outline: none;
+  background: none;
+  border: none;
+  margin: 15px 0px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+form {
+  background: white;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  height: 500px;
+}
+
+nav li:hover {
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.639);
+}
+
+#space:hover {
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.639);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 10px;
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="confirm-password"],
+select {
+  width: 100%;
+  padding: 7px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  height: 32px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+i {
+  position: absolute;
+  right: 530px;
+}
+
+form {
+  box-shadow: 3px 0px 10px rgba(0, 0, 0, 5);
+  margin-top: 5%;
+}
+
+#result {
+  color: #000000;
+  font-weight: 600;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.popup {
+  width: 380px;
+  background-color: black;
+  border-radius: 6px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: transform .4s, top .4s;
+  visibility: hidden;
+  text-align: center;
+  padding: 0 30px 30px;
+  height: 330px;
+  color: white;
+}
+
+.popup ion-icon {
+  color: #00ff00;
+  font-size: 50px;
+}
+
+.popup button {
+  width: 100%;
+  background: #00ff00;
+  padding: 10px 0;
+  margin-top: 50px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1);
+}
+
+.popup a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.open-slide {
+  top: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  visibility: visible;
+}
