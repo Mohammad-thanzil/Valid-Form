@@ -1,4 +1,3 @@
-const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 function validation(){
   
